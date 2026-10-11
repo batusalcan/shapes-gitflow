@@ -1,5 +1,10 @@
+from shapes.circle import Circle
+
+
 def main():
-    print("Shapes app")
+    shapes = [Circle(2)]
+    for s in shapes:
+        print(s.describe())
 
 
 if __name__ == "__main__":
