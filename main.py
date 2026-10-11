@@ -1,5 +1,10 @@
+from shapes.rectangle import Rectangle
+
+
 def main():
-    print("Shapes app")
+    shapes = [Rectangle(3, 4)]
+    for s in shapes:
+        print(s.describe())
 
 
 if __name__ == "__main__":
